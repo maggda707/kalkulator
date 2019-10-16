@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(242, 252, 253);
+    color: #302f2f;
+    font-size: 28px;
+    font-family: 'Inconsolata', monospace;
+    margin: 0 !important; 
+}
+
+#calculator{
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-top: 40px;
+    min-height: 500px;
+    border-radius: 10px;
+    border: 3px solid #8f8f8f;
+}
+
+#display{
+    width: 282px;
+    margin: 30px 25px;
+    text-align: right;
+    font-size: 54px;
+    height: 60px;
+    color: #302f2f;
+    padding-right: 5px;
+    font-family: 'PT Mono', monospace;
+    background-color: rgb(241, 239, 239);
+    border: 2px solid #727272;
+    border-radius:10px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#buttons{
+    margin: 5px auto;
+    text-align: center;
+    width: 270px;
+    min-height: 280px;
+    margin-bottom: 50px;
+}
+
+.symbol{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #969595;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+.symbol:hover{
+    background-color:#E0F7FA;
+    color:#302f2f;
+    border: 1px solid  #969595;
+}
+
+#symb0, #symb1, #symb2{
+    background-color: #E0E0E0;
+}
+
+#symb0:hover, #symb1:hover, #symb2:hover{
+    background-color: #BDBDBD;
+}
+
+#symb3, #symb7, #symb11, #symb15, #symb19{
+    background-color: #B2EBF2;   
+}
+
+#symb3:hover, #symb7:hover, #symb11:hover, #symb15:hover, #symb19:hover{
+    background-color: #80DEEA; 
+}
+
+#symb18{
+    background-color: #4DD0E1;
+}
+
+#symb18:hover{
+    background-color: #26C6DA;
+}
